@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D5BD89A70EC42DB80041B629 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BD89A60EC42DB80041B629 /* QTKit.framework */; };
+		D5BD89D10EC42DF70041B629 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BD89D00EC42DF70041B629 /* QuickTime.framework */; };
+		D5BD89EE0EC42ED10041B629 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD89ED0EC42ED10041B629 /* AppController.m */; };
+		D5BD89F60EC42EF80041B629 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD89F20EC42EF80041B629 /* ImageAndTextCell.m */; };
+		D5BD8A080EC42F120041B629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD89FB0EC42F120041B629 /* main.m */; };
+		D5BD8A090EC42F120041B629 /* MyNSSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD89FE0EC42F120041B629 /* MyNSSliderCell.m */; };
+		D5BD8A0A0EC42F120041B629 /* MyQTMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A000EC42F120041B629 /* MyQTMovie.m */; };
+		D5BD8A0B0EC42F120041B629 /* MySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A020EC42F120041B629 /* MySlider.m */; };
+		D5BD8A0C0EC42F120041B629 /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A040EC42F120041B629 /* NSArray_Extensions.m */; };
+		D5BD8A0D0EC42F120041B629 /* NSOutlineView_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A060EC42F120041B629 /* NSOutlineView_Extensions.m */; };
+		D5BD8A1E0EC42F810041B629 /* QTMovieExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A150EC42F810041B629 /* QTMovieExtensions.m */; };
+		D5BD8A1F0EC42F810041B629 /* QTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A170EC42F810041B629 /* QTUtils.m */; };
+		D5BD8A200EC42F810041B629 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5BD8A180EC42F810041B629 /* ReadMe.rtf */; };
+		D5BD8A210EC42F810041B629 /* SimpleTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A1A0EC42F810041B629 /* SimpleTreeNode.m */; };
+		D5BD8A220EC42F810041B629 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8A1C0EC42F810041B629 /* TreeNode.m */; };
+		D5BD8A230EC42F810041B629 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5BD8A1D0EC42F810041B629 /* version.plist */; };
+		D5BD8A2B0EC430F50041B629 /* moov icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D5BD8A2A0EC430F50041B629 /* moov icon.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Bookins_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bookins_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Bookins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BD89A60EC42DB80041B629 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		D5BD89D00EC42DF70041B629 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		D5BD89EC0EC42ED10041B629 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = "../untitled folder 4/AppController.h"; sourceTree = SOURCE_ROOT; };
+		D5BD89ED0EC42ED10041B629 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = "../untitled folder 4/AppController.m"; sourceTree = SOURCE_ROOT; };
+		D5BD89F10EC42EF80041B629 /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAndTextCell.h; path = "../untitled folder 4/ImageAndTextCell.h"; sourceTree = SOURCE_ROOT; };
+		D5BD89F20EC42EF80041B629 /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAndTextCell.m; path = "../untitled folder 4/ImageAndTextCell.m"; sourceTree = SOURCE_ROOT; };
+		D5BD89FB0EC42F120041B629 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../untitled folder 4/main.m"; sourceTree = SOURCE_ROOT; };
+		D5BD89FD0EC42F120041B629 /* MyNSSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyNSSliderCell.h; path = "../untitled folder 4/MyNSSliderCell.h"; sourceTree = SOURCE_ROOT; };
+		D5BD89FE0EC42F120041B629 /* MyNSSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyNSSliderCell.m; path = "../untitled folder 4/MyNSSliderCell.m"; sourceTree = SOURCE_ROOT; };
+		D5BD89FF0EC42F120041B629 /* MyQTMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyQTMovie.h; path = "../untitled folder 4/MyQTMovie.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A000EC42F120041B629 /* MyQTMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyQTMovie.m; path = "../untitled folder 4/MyQTMovie.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A010EC42F120041B629 /* MySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySlider.h; path = "../untitled folder 4/MySlider.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A020EC42F120041B629 /* MySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySlider.m; path = "../untitled folder 4/MySlider.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A030EC42F120041B629 /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSArray_Extensions.h; path = "../untitled folder 4/NSArray_Extensions.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A040EC42F120041B629 /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArray_Extensions.m; path = "../untitled folder 4/NSArray_Extensions.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A050EC42F120041B629 /* NSOutlineView_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOutlineView_Extensions.h; path = "../untitled folder 4/NSOutlineView_Extensions.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A060EC42F120041B629 /* NSOutlineView_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineView_Extensions.m; path = "../untitled folder 4/NSOutlineView_Extensions.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A140EC42F810041B629 /* QTMovieExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QTMovieExtensions.h; path = "../untitled folder 4/QTMovieExtensions.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A150EC42F810041B629 /* QTMovieExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QTMovieExtensions.m; path = "../untitled folder 4/QTMovieExtensions.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A160EC42F810041B629 /* QTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QTUtils.h; path = "../untitled folder 4/QTUtils.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A170EC42F810041B629 /* QTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QTUtils.m; path = "../untitled folder 4/QTUtils.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A180EC42F810041B629 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ReadMe.rtf; path = "../untitled folder 4/ReadMe.rtf"; sourceTree = SOURCE_ROOT; };
+		D5BD8A190EC42F810041B629 /* SimpleTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTreeNode.h; path = "../untitled folder 4/SimpleTreeNode.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A1A0EC42F810041B629 /* SimpleTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTreeNode.m; path = "../untitled folder 4/SimpleTreeNode.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A1B0EC42F810041B629 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNode.h; path = "../untitled folder 4/TreeNode.h"; sourceTree = SOURCE_ROOT; };
+		D5BD8A1C0EC42F810041B629 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNode.m; path = "../untitled folder 4/TreeNode.m"; sourceTree = SOURCE_ROOT; };
+		D5BD8A1D0EC42F810041B629 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = version.plist; path = "../untitled folder 4/version.plist"; sourceTree = SOURCE_ROOT; };
+		D5BD8A2A0EC430F50041B629 /* moov icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "moov icon.tiff"; path = "../untitled folder 4/Images/moov icon.tiff"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D5BD89A70EC42DB80041B629 /* QTKit.framework in Frameworks */,
+				D5BD89D10EC42DF70041B629 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD89D00EC42DF70041B629 /* QuickTime.framework */,
+				D5BD89A60EC42DB80041B629 /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Bookins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Bookins */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A180EC42F810041B629 /* ReadMe.rtf */,
+				D5BD8A1D0EC42F810041B629 /* version.plist */,
+				D5BD89EC0EC42ED10041B629 /* AppController.h */,
+				D5BD89ED0EC42ED10041B629 /* AppController.m */,
+				D5BD8A260EC42FEC0041B629 /* QTKitQuicktime code */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Bookins;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A250EC42FB80041B629 /* Cocoa Extensions */,
+				D5BD8A240EC42F8B0041B629 /* Tree */,
+				D5BD8A0F0EC42F460041B629 /* Slider code */,
+				32CA4F630368D1EE00C91783 /* Bookins_Prefix.pch */,
+				D5BD89FB0EC42F120041B629 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A290EC430EB0041B629 /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BD8A0F0EC42F460041B629 /* Slider code */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD89FD0EC42F120041B629 /* MyNSSliderCell.h */,
+				D5BD89FE0EC42F120041B629 /* MyNSSliderCell.m */,
+				D5BD8A010EC42F120041B629 /* MySlider.h */,
+				D5BD8A020EC42F120041B629 /* MySlider.m */,
+			);
+			name = "Slider code";
+			sourceTree = "<group>";
+		};
+		D5BD8A240EC42F8B0041B629 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A190EC42F810041B629 /* SimpleTreeNode.h */,
+				D5BD8A1A0EC42F810041B629 /* SimpleTreeNode.m */,
+				D5BD8A1B0EC42F810041B629 /* TreeNode.h */,
+				D5BD8A1C0EC42F810041B629 /* TreeNode.m */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		D5BD8A250EC42FB80041B629 /* Cocoa Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A030EC42F120041B629 /* NSArray_Extensions.h */,
+				D5BD8A040EC42F120041B629 /* NSArray_Extensions.m */,
+				D5BD8A050EC42F120041B629 /* NSOutlineView_Extensions.h */,
+				D5BD8A060EC42F120041B629 /* NSOutlineView_Extensions.m */,
+				D5BD89F10EC42EF80041B629 /* ImageAndTextCell.h */,
+				D5BD89F20EC42EF80041B629 /* ImageAndTextCell.m */,
+			);
+			name = "Cocoa Extensions";
+			sourceTree = "<group>";
+		};
+		D5BD8A260EC42FEC0041B629 /* QTKitQuicktime code */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A160EC42F810041B629 /* QTUtils.h */,
+				D5BD8A170EC42F810041B629 /* QTUtils.m */,
+				D5BD8A150EC42F810041B629 /* QTMovieExtensions.m */,
+				D5BD8A140EC42F810041B629 /* QTMovieExtensions.h */,
+				D5BD89FF0EC42F120041B629 /* MyQTMovie.h */,
+				D5BD8A000EC42F120041B629 /* MyQTMovie.m */,
+			);
+			name = "QTKitQuicktime code";
+			sourceTree = "<group>";
+		};
+		D5BD8A290EC430EB0041B629 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD8A2A0EC430F50041B629 /* moov icon.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Bookins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Bookins" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookins;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Bookins;
+			productReference = 8D1107320486CEB800E47090 /* Bookins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bookins" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Bookins */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Bookins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D5BD8A200EC42F810041B629 /* ReadMe.rtf in Resources */,
+				D5BD8A230EC42F810041B629 /* version.plist in Resources */,
+				D5BD8A2B0EC430F50041B629 /* moov icon.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BD89EE0EC42ED10041B629 /* AppController.m in Sources */,
+				D5BD89F60EC42EF80041B629 /* ImageAndTextCell.m in Sources */,
+				D5BD8A080EC42F120041B629 /* main.m in Sources */,
+				D5BD8A090EC42F120041B629 /* MyNSSliderCell.m in Sources */,
+				D5BD8A0A0EC42F120041B629 /* MyQTMovie.m in Sources */,
+				D5BD8A0B0EC42F120041B629 /* MySlider.m in Sources */,
+				D5BD8A0C0EC42F120041B629 /* NSArray_Extensions.m in Sources */,
+				D5BD8A0D0EC42F120041B629 /* NSOutlineView_Extensions.m in Sources */,
+				D5BD8A1E0EC42F810041B629 /* QTMovieExtensions.m in Sources */,
+				D5BD8A1F0EC42F810041B629 /* QTUtils.m in Sources */,
+				D5BD8A210EC42F810041B629 /* SimpleTreeNode.m in Sources */,
+				D5BD8A220EC42F810041B629 /* TreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bookins_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Bookins;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bookins_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Bookins;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Bookins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bookins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

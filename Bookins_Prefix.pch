@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bookins' target in the 'Bookins' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
